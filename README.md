@@ -17,6 +17,11 @@ $ ln -s "${HOME}/.config/yabai/yabairc" "${HOME}/.yabairc"
 $ ln -s "${HOME}/.config/yabai/skhdrc" "${HOME}/.skhdrc"
 ```
 
+```sh
+# Restart yabai & skhd to apply
+$ brew services restart yabai && brew services restart skhd
+```
+
 ## Keyboard Shortcuts
 
 ### Changing Focus
